@@ -3,6 +3,7 @@ Laravel 4 Prayer Time
 
 Diyanet işleri bakanlığının alt yapısını kullanarak namaz vakitlerini temin eden laravel için geliştirilmiş basit bir pakettir.
 
+Not: Şuan sadece Türkiye için namaz vakitleri sağlanmaktadır.
 
 Kurulum
 --------------
