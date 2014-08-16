@@ -68,7 +68,7 @@ Prayer::getAllCitiesCode();
 Prayer::getAllCitiesCode();
 ```
 
-** Tekin Kullanımlar için ise :**
+** Tekil Kullanımlar için ise :**
 
 
 > Belirtilen kodun şehir ismini almak.
