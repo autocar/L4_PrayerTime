@@ -2,7 +2,7 @@
     "name": "lugihaue/prayertime",
     "type": "library",
     "description": "Laravel 4 için basit bir namaz vakti servisi",
-    "keywords": ["laravel", "namaz vakti"],
+    "keywords": ["laravel", "namaz vakti" , "prayer time"],
     "license": "MIT",
     "authors": [
         {
@@ -19,5 +19,5 @@
             "Lugihaue\\Prayertime": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
