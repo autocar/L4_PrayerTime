@@ -6,7 +6,11 @@ Diyanet işleri bakanlığının alt yapısını kullanarak namaz vakitlerini te
 
 Kurulum
 --------------
-Paketi uygulamanıza dahil etmek için **composer.json** dosyasının içinde bulunan **require** dizisi içerisine **"lugihaue/prayertime":"dev-master"** dizgesini ekleyiniz.
+Paketi uygulamanıza dahil etmek için **composer.json** dosyasının içinde bulunan **require** dizisi içerisine aşağıdaki dizgeyi ekleyiniz.
+
+```sh
+"lugihaue/prayertime":"dev-master"
+```
 
 Sonrasında paketi yüklemek için aşağıdaki komutunu çalıştırınız.
 
