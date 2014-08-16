@@ -135,4 +135,6 @@ saate günlük cron ayarlayıp namaz vakitlerini güncel tutarsınız.
 Lisans
 ----
 
-MIT
+[MIT] ile lisanslanmıştır.
+
+[MIT]:http://opensource.org/licenses/MIT
