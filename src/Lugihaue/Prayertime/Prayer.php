@@ -147,22 +147,22 @@ class Prayer {
      * @return mixed
      */
 
-    public function getPrayerCode($cityCode , $center = false)
+    public function getDistrictCode($cityCode , $center = false)
     {
-        $getCityPrayerContents = file_get_contents(self::CITY_URL . $cityCode);
+        $getCityContents = file_get_contents(self::CITY_URL . $cityCode);
 
-            if($getCityPrayerContents === false) throw new \Exception('İlçe namaz kodları alınamıyor !' , 404);
+            if($getCityContents === false) throw new \Exception('İlçe namaz kodları alınamıyor !' , 404);
 
-                $getCityPrayer = json_decode($getCityPrayerContents , true);
+                $getCityCode = json_decode($getCityContents , true);
 
-            if ($center) return $getCityPrayer[0]['Value'];
+            if ($center) return $getCityCode[0]['Value'];
 
-                foreach ($getCityPrayer as $value) {
+                foreach ($getCityCode as $value) {
 
-                    $allPrayerCode[$value['Text']] = $value['Value'];
+                    $allDistrictCode[$value['Text']] = $value['Value'];
                 }
 
-            return $allPrayerCode;
+            return $allDistrictCode;
     }
 
     /**
